@@ -2,6 +2,21 @@
 using System.Drawing;
 using System.Windows.Forms;
 
+/*
+ * 
+ * Form that only holds a PictureBox drawArea for drawing a naive graph implementation.
+ * Listeners:
+ * * s: create a sample graph
+ * * c: clears the current graph
+ * * left double click on empty space: create a vertex
+ * * left double click on vertex: markes vertex
+ * ** double click on other vertex creates edge between the vertices
+ * ** b: start bfs from marked vertex
+ * ** d: start dfs from marked vertex
+ * ** right click: removes mark
+ * * right click on vertex: remove vertex and all edges that hold this vertex
+ * * left click drag on vertex: move this vertex
+ */
 namespace GraphDrawer
 {
     public partial class DrawGraphForm : Form
