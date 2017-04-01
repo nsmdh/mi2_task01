@@ -9,12 +9,12 @@ namespace GraphDrawer
         public float radius { get; set; }
         public String name { get; set; }
 
-        public Vertex(float x, float y, String name)
+        public Vertex(float x, float y)
         {
             this.x = x;
             this.y = y;
             this.radius = 0.02f;
-            this.name = name;
+            this.name = "";
         }
 
         public bool isAtCoord(float x, float y, float rx, float ry)

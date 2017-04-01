@@ -49,8 +49,7 @@ namespace GraphDrawer
             {
                 for (int j = 1; j <= 11; j++)
                 {
-                    String name = "";// + ((i - 1) * 11 + j);
-                    Vertex v = new Vertex(i * 1.0f / 12, j * 1.0f / 12, name);
+                    Vertex v = new Vertex(i * 1.0f / 12, j * 1.0f / 12);
                     g.addVertex(v);
                 }
             }

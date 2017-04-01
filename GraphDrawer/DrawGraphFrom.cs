@@ -84,7 +84,7 @@ namespace GraphDrawer
                 }
                 else
                 {
-                    graph.addVertex(new Vertex(1.0f * e.X / drawingArea.Width, 1.0f * e.Y / drawingArea.Height, ""));
+                    graph.addVertex(new Vertex(1.0f * e.X / drawingArea.Width, 1.0f * e.Y / drawingArea.Height));
                 }
                 drawGraph();
             }
